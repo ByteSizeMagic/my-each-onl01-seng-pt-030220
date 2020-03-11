@@ -4,8 +4,5 @@ def my_each(array)
     yield array[i]
     i += 1
   end
-end
-
-my_each(["Tim", "Tom", "Jerry"]) do |name|
-  puts "The length of #{name} is #{name.length}"
+  return array
 end
