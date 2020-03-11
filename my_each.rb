@@ -6,4 +6,6 @@ def my_each(array)
   end
 end
 
-p my_each(["Tim", "Tom", "Jerry"])
+my_each(["Tim", "Tom", "Jerry"]) do |name|
+  puts "The length of #{name} is #{name.length}"
+end
