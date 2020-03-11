@@ -6,4 +6,4 @@ def my_each(array)
   end
 end
 
-my_each(["Tim", "Tom", "Jerry"])
+p my_each(["Tim", "Tom", "Jerry"])
